@@ -1,0 +1,48 @@
+[
+  {
+    "id": "/subscriptions/a9d228ac-7134-452a-a188-61f5c2b4dbc3/resourceGroups/ghs-fss-d-rg1e2-aks-c01/providers/Microsoft.ContainerService/managedClusters/ghs-fss-d-aks-c01",
+    "identity": null,
+    "kind": null,
+    "location": "eastus2",
+    "managedBy": null,
+    "name": "ghs-fss-d-aks-c01",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "ghs-fss-d-rg1e2-aks-c01",
+    "sku": null,
+    "tags": null,
+    "type": "Microsoft.ContainerService/managedClusters"
+  },
+  {
+    "id": "/subscriptions/a9d228ac-7134-452a-a188-61f5c2b4dbc3/resourceGroups/ghs-fss-d-rg1e2-aks-c01/providers/Microsoft.Network/privateDnsZones/cmdsfinance.com",
+    "identity": null,
+    "kind": null,
+    "location": "global",
+    "managedBy": null,
+    "name": "cmdsfinance.com",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "ghs-fss-d-rg1e2-aks-c01",
+    "sku": null,
+    "tags": {
+      "type": "privatecmdsfinance"
+    },
+    "type": "Microsoft.Network/privateDnsZones"
+  },
+  {
+    "id": "/subscriptions/a9d228ac-7134-452a-a188-61f5c2b4dbc3/resourceGroups/ghs-fss-d-rg1e2-aks-c01/providers/Microsoft.Network/privateDnsZones/cmdsfinance.com/virtualNetworkLinks/testlink",
+    "identity": null,
+    "kind": null,
+    "location": "global",
+    "managedBy": null,
+    "name": "cmdsfinance.com/testlink",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "ghs-fss-d-rg1e2-aks-c01",
+    "sku": null,
+    "tags": null,
+    "type": "Microsoft.Network/privateDnsZones/virtualNetworkLinks"
+  }
+]
+
+C:\Users\shashidhar.rao>az resource list
