@@ -1,3 +1,4 @@
+## created by Shashi_Rao
 MyEcho ()
 {
    # prepend timestamp to text ($2) on both screen and a file ($1)
